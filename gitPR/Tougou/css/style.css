@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* すべてのWebページに適応される*/
+html {
+		font-family: sans-serif;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  
+  background-image: url("../images/wa.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.profile p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold; /* 太字にするための変更 */
+  color: #666;
+}
+
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.other-members {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.other-members ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.other-members ul li {
+  margin-right: 10px;
+}
+
+.other-members ul li a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.title{
+ font-weight: bold; /* 太字にするための変更 */
+ }
+ 
+.komento {
+	box-shadow: 0 0 10px 0 #ccc;
+	margin: 10px auto 30px auto;
+	padding: 10px 40px;
+	max-width: 640px;
+	//background-color: #ffffff;
+	
+}
+
