@@ -3,7 +3,7 @@
 /*ページ設定ここから*/
 /******************************/
 html {
-
+    
 }
 * {
     margin: 0;
@@ -23,9 +23,50 @@ a {
 /******************************/
 
 header {
-    
-
+    background-color: rgba(75, 80, 80, 0.705);
+    text-align: center;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: 'Century';
+}
+
+.headerL {
+    position: absolute;
+    left: 0;
+}/*headerの左要素*/
+
+.headerL a p {
+    transition: 0.5s;
+}
+
+.headerL a p:hover {
+    color: rgb(10, 203, 252);    
+}
+
+.headerR {
+    position: absolute;
+    right: 0;
+}/*headerの→要素*/
+
+header p {
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+}
+
+header a {
+    color: black;
+}
+
+header h1 {
+    font-family: serif;
+    color: white;
+}
+
 
 /******************************/
 /*ヘッダーここまで*/
@@ -36,8 +77,51 @@ header {
 /******************************/
 
 main {
-    
+    background-color: rgba(187, 187, 187, 0.534);
 }
+
+main .member {
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+main .member h2 {
+    font-size: 50px;
+    font-family: serif;
+}
+
+main .member p {
+    font-size: 25px;
+    font-family: serif;
+}
+
+main .photo {
+    border-radius: 30%;
+    width: 250px;
+    height: 250px;
+}
+
+main .memberFlex {
+    display: flex;
+    justify-content: center;
+}
+
+main .countReset {
+    padding-top: 6%;
+    padding-left: 3%;
+}
+
+main .clock {
+    padding-top: 7%;
+    padding-left: 30px;
+}
+
+main .changeBG {
+    padding-top: 7%;
+    padding-left: 50px;
+}
+
+
 
 /******************************/
 /*メインここまで*/
@@ -48,7 +132,17 @@ main {
 /******************************/
 
 footer {
-    
+    background-color: rgba(0, 0, 0, 0.63);
+    padding-bottom: 1%;
+}
+
+footer p {
+    font-family: 'Century',serif;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 100;
+    padding: 10px;
 }
 
 /******************************/

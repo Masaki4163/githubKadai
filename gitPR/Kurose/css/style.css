@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/******************************/
+/*ページ設定ここから*/
+/******************************/
+html {
+    
+}
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+a {
+    text-decoration: none;
+}
+
+/******************************/
+/*ページ設定ここまで*/
+/******************************/
+
+/******************************/
+/*ヘッダーここから*/
+/******************************/
+
+header {
+    background-color: rgba(75, 80, 80, 0.705);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: 'Century';
+}
+
+.headerL {
+    position: absolute;
+    left: 0;
+}/*headerの左要素*/
+
+.headerL a p {
+    transition: 0.5s;
+}
+
+.headerL a p:hover {
+    color: rgb(10, 203, 252);    
+}
+
+.headerR {
+    position: absolute;
+    right: 0;
+}/*headerの→要素*/
+
+header p {
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+}
+
+header a {
+    color: black;
+}
+
+header h1 {
+    font-family: serif;
+    color: white;
+}
+
+
+/******************************/
+/*ヘッダーここまで*/
+/******************************/
+
+/******************************/
+/*メインここから*/
+/******************************/
+
+main {
+    background-color: rgba(187, 187, 187, 0.534);
+}
+
+main .photo {
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+main .icon {
+    border-radius: 10%;
+    width: 60vh;
+}
+
+main .inputButton {
+    text-align: center;
+    padding-top: 30px;
+}
+
+main .nameS {
+    text-align: center;
+    font-family: 'Century';
+    font-size: 25px;
+    padding-top: 2%;
+    letter-spacing: 5px;
+}
+
+main .nameL {
+    font-family: 'Century';
+    font-size: 40px;
+    padding-bottom: 30px;
+    padding-left: 44%;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+main .content {
+    display: flex; 
+    justify-content: center;
+    padding-top: 5%;
+}
+
+main .contentLeft {
+    width: 50%;
+    text-align: center;
+}
+
+main .contentRight {
+    width: 50%;
+}
+
+main .contentPhoto {
+    border-radius: 10%;
+    margin-left: 25%;
+    height: 250px;
+}
+
+main .contentRight h1 {
+    font-family: serif;
+    text-align: center;
+    margin-right: 30%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+main .contentRight h2 {
+    font-family: serif;
+    text-align: center;
+    margin-right: 30%;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
+main .contentReverse {
+    display: flex; 
+    justify-content: center;
+    padding-top: 5%;
+    
+}
+
+main .contentReverseLeft {
+    width: 50%;
+    text-align: center;
+}
+
+main .contentReverseRight {
+    width: 50%;
+}
+
+main .contentReversePhoto {
+    border-radius: 10%;
+    margin-right: 25%;
+    height: 250px;
+}
+
+main .contentReverseRight h1 {
+    font-family: serif;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+main .contentReverseRight h2 {
+    font-family: serif;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+main .list {
+    font-family: serif;
+    font-size: 30px;
+    padding-left:50%;
+    letter-spacing: 7px;
+}
+
+.contentReversePhotoAnime {
+    border-radius: 10%;
+    margin-right: 25%;
+    height: 70%;
+}
+
+main .memberComment {
+    padding-bottom: 30px;
+}
+
+main .memberComment h1 {
+    font-family: serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+main .memberComment li {
+    font-family: serif;
+    font-size: 30px;
+    padding-left: 30%;
+}
+
+/******************************/
+/*メインここまで*/
+/******************************/
+
+/******************************/
+/*フッターここから*/
+/******************************/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.63);
+    padding-bottom: 1%;
+}
+
+footer h1 {
+    font-family: 'Century',serif;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 100;
+    padding: 10px;
+}
+
+cite {
+    color: rgb(211, 208, 208);
+    font-weight: bold;
+}
+
+cite {
+    transition: 0.5s;
+}
+
+cite:hover {
+    color: rgb(10, 203, 252);
+}
+
+/******************************/
+/*フッターここまで*/
+/******************************/
+
+@media screen and (max-width:960px){
+
+}

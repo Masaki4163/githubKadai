@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name=”robots” content=”noindex” />
+        <meta name=”robots” content=”noindex,nofollow“>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="js/app.js">
+        <link rel="icon" type="image/png" href="img/icon.png"><!--サイトアイコン-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>S-Kurose自己紹介</title>
+    <body>
+        <header>
+            <div class="headerL"><a href="../index.html"><p>TOP</p></a></div>
+            <h1>S_Kuroseの自己紹介ページ</h1>
+            <div class="headerR"><p></p></div>
+        </header>
+        <main>
+
+            <div class="inputButton">
+                <input type="button" value="表示" onclick="hyoji(0)">
+                <input type="button" value="非表示" onclick="hyoji(1)">
+            </div>
+            
+            <div class="photo" id="disp"><img src="img/icon.jpg" alt="" class="icon"></div>
+            <div class="info">
+                    <p class="nameS">Name</p>
+                    <p class="nameL">S_Kurose</p>
+                    <div class="content">
+                        <div class="contentLeft" id="disp"><img src="img/Kurashikishi.jpeg" alt="" id="disp"></div>
+                        <div class="contentRight">
+                            <h1>ー From ー</h1>
+                            <h2>岡山県倉敷市</h2>
+                        </div>
+                    </div>
+
+            
+            <script>
+
+                function hyoji(num)
+                {
+                if (num == 0)
+                {
+                    document.getElementById("disp").style.display="block";
+                }
+                else
+                {
+                    document.getElementById("disp").style.display="none";
+                }
+                }
+                
+            </script>
+
+                    <div class="contentReverse">
+                        <div class="contentReverseRight">
+                            <h1>ー Age ー</h1>
+                            <h2>19歳</h2>
+                        </div>
+                        <div class="contentReverseLeft"><img src="img/age.png" alt="" class="contentReversePhoto"></div>
+                    </div>
+
+                    <div class="content">
+                        <div class="contentLeft"><img src="img/FavoriteFood.png" alt="" class="contentPhoto"></div>
+                        <div class="contentRight">
+                            <h1>ー Favorite Food ー</h1>
+                            <h2>ラーメン</h2>
+                        </div>
+                    </div>
+
+                    <div class="contentReverse">
+                        <div class="contentReverseRight">
+                            <h1>ー Hobby ー</h1>
+                            <ul class="list">
+                                <li>ゲーム</li>
+                                <li>模写(イラスト)</li>
+                                <li>アニメ</li>
+                            </ul>
+                        </div>
+                        <div class="contentReverseLeft"><img src="img/anime.png" alt="" class="contentReversePhotoAnime"></div>
+                    </div>
+            </div>
+
+            <div class="memberComment">
+                <h1>班員からのコメント</h1>
+                <ul>
+                    <li>鵤　　：オセロニア・ようこそ実力至上主義の教室へのパチンコがでたら行きましょう。</li><!--コメントはここにお願いします-->
+                    <li>高橋　：頭がいいイメージです。共通のアニメについて語りたい</li>
+                    <li>東郷　：オセロニア頑張れ</li>
+                    <li>田生ま：責任感があってチームワーク力がある</li>
+                </ul>
+            </div>
+
+        </main>
+        <footer>
+            <h1>&copy;2023 - M_Tanaka</h1>
+            <h1>引用元：<a href="https://www.photo-ac.com/main/search?q=%E5%80%89%E6%95%B7&qt=&qid=&creator=&ngcreator=&nq=&srt=dlrank&orientation=all&sizesec=all&color=all&model_count=-1&age=all&mdlrlrsec=all&sl=ja&utm_source=tag&pt=B&p=1"><cite>写真AC 様</cite></a>, <a href="https://free-materials.com/%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%EF%BC%88%E9%86%A4%E6%B2%B9%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%EF%BC%8902/"><cite>フリー素材ドットコム 様</cite></a>, <a href="http://you-zitsu.com/"><cite>ようこそ実力至上主義の教室へ 様</cite></a></h1>
+            <script src="js/app.js"></script>
+        </footer>
+    </body>
+</html>
