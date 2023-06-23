@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>パチンカスゆうだいの生態調査</title>
+  <style>
+    /* スタイルをここに追加 */
+    body {
+      font-family: Arial, sans-serif;
+      background-size: contain;
+      background-position: center;
+      transition: background-image 1s ease-in-out;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .profile {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+    }
+    
+    .profile img {
+      width: 50%;
+      height: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .profile .image-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .profile p {
+      line-height: 1.5;
+    }
+    
+    /* 名前を虹色にするスタイル */
+    .rainbow-text {
+      background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+  <script>
+    var backgroundImages = ["yuu.png", "kakumei.jpg", "harakiri.jpg", "kabanerihaikei.jpg", "evahaikei.jpg", "Rezerohaikei.jpg"];
+    var currentImageIndex = 0;
+
+    function changeBackground() {
+      var body = document.body;
+      currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+      body.style.backgroundImage = "url('" + backgroundImages[currentImageIndex] + "')";
+    }
+
+    setInterval(changeBackground, 2000);
+
+    function toggleImage() {
+      var profileImage = document.getElementById("profile-image");
+      profileImage.style.display = (profileImage.style.display === "none") ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+  <h1>パチンカスゆうだいの生態調査</h1>
+  
+  <div class="profile">
+    <button onclick="toggleImage()">いっぺん押してみる？</button>
+    <img id="profile-image" src="yudaikaeru.webp" alt="ゆうだいご尊顔">
+    <h2 class="rainbow-text">名前：高橋優大</h2>
+    <h2>別名：ゆうだい、ゆーだい、ゆうくん、Pダイ、パチカス、スロカス、主犯、カエル、ケロット、ケロット４、ゲコ太、Udemy、Pdemy、寿司、すし丸、寿司マシーン、バケモノ、ゲテモノ、95％</h2>
+    <div>
+    	<p>年齢：優大さんの年齢は１９歳です。</p>
+    </div>
+    <div>
+    	<p>趣味：優大さんの趣味はパチンコ・スロットを打つことです。このお方は「パチンコを引退する。絶対にもう行かない。」と言っておきながら５時間後にはパチ屋に急行しているような男です。はっきり言ってゲテモノ。そのぐらいパチンコが大好きなお方です。</p>
+    </div>
+    <div>
+    	<p>得意科目：優大さんの得意科目は目押しです。</p>
+    </div>
+    <div>
+    <p>好きな機種：優大さんのお好きな機種は「パチスロ 革命機ヴァルヴレイヴ」「パチスロ甲鉄城のカバネリ」「新世紀エヴァンゲリオン〜未来への咆哮〜」「P Re:ゼロから始める異世界生活 鬼がかりver.」です。</p>
+	</div>
+	<div class="image-container">
+	    <img src="vvv.jpg" alt="筐体１">
+	    <img src="kabaneri.jpg" alt="筐体２">
+	    <img src="eve.jpg" alt="筐体３">
+	    <img src="Rezero.jpg" alt="筐体４">
+	</div>
+	<div>
+    <h2>班員・友人からのお言葉</h2>
+    <div>
+    <p>おーちゃん：いつになったらハラキリドライブ入れるん？</p>
+	</div>
+	<div>
+    <p>こうたろう：こいつはかえる。私が知っているパチンコ友達の中でも、救いようのないかえるです。自分の引きに誇りを持っていますが、実際はヴァルヴレイヴ40万負けのかえるです。</p>
+	</div>
+	<div>
+    <p>黒瀬：vvv今どれだけ勝ってる？？</p>
+	</div>
+	<div>
+    <p>田中：パチンコについて楽しく話してくれている謙虚で真面目で温厚な方です。</p>
+	</div>
+	<div>
+    <p>東郷：太田くんをパチンカスにしないで</p>
+	</div>
+	</div>
+  
+  <!-- リンクの追加 -->
+  <div>
+    <h2>リンク</h2>
+    <ul>
+      <li><a href="../Tabaka/Tanaka.html">田中紹介ページへ</a></li>
+      <li><a href="../Kurose/Kurose.html">黒瀬紹介ページへ</a></li>
+      <li><a href="../Tougou/Tougou.html">東郷紹介ページへ</a></li>
+      <li><a href="../ikaruga/Ikaruga.html">面舵いっぱい！全速前進ヨーソロー！緋弾の継承はなされた。あとはあなたが決めることよ。だからなんなの！みんなで勝つって約束したから！パンツァーフォー！</a></li>
+      <li><a href="../index.html">トップへ</a></li>
+    </ul>
+  </div>
+  
+</body>
+</html>
